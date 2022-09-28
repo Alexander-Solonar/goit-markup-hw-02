@@ -10,111 +10,164 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header>
-      <a href="./index.html">WebStudio</a>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="#">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+    <header class="header">
+      <a class="logo" href="./index.html"><span class="color-logo">Web</span>Studio</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="./index.html">Студія</a></li>
+          <li class="nav-item"><a class="nav-link active" href="./portfolio.html">Портфоліо</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contact-list">
+        <li class="contact-item">
+          <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="contact-item">
+          <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
 
-    <main>
-      <ul>
-        <li>
-          <button type="button">Усі</button>
-        </li>
-        <li>
-          <button type="button">Веб-сайти</button>
-        </li>
-        <li>
-          <button type="button">Додатки</button>
-        </li>
-        <li>
-          <button type="button">Дизайн</button>
-        </li>
-        <li>
-          <button type="button">Маркетинг</button>
-        </li>
-      </ul>
+    <main class="main-portfolio">
 
-      <!-- section work -->
-      <section>
-        <ul>
-          <li>
-            <img src="./images/work/web-laptop.jpg" alt="Ноутбук" width="370" />
-            <h2></h2>
-            <p></p>
+      <section class="section-work">
+        <ul class="filter-list">
+          <li class="filter-item">
+            <button class="filter-button" type="button">Усі</button>
           </li>
-          <li>
-            <img src="./images/work/game.jpg" alt="Гра в баскетбол" width="370" />
-            <h2></h2>
-            <p></p>
+          <li class="filter-item">
+            <button class="filter-button" type="button">Веб-сайти</button>
           </li>
-          <li>
-            <img src="./images/work/food.jpg" alt="Логотим ресторану" width="370" />
-            <h2></h2>
-            <p></p>
+          <li class="filter-item">
+            <button class="filter-button" type="button">Додатки</button>
           </li>
-          <li>
-            <img src="./images/work/headphones.jpg" alt="Навушники" width="370" />
-            <h2></h2>
-            <p></p>
+          <li class="filter-item">
+            <button class="filter-button" type="button">Дизайн</button>
           </li>
-          <li>
-            <img src="./images/work/box.jpg" alt="Коробки" width="370" />
-            <h2></h2>
-            <p></p>
+          <li class="filter-item">
+            <button class="filter-button" type="button">Маркетинг</button>
           </li>
-          <li>
-            <img src="./images/work/monitor.jpg" alt="Монітор" width="370" />
-            <h2></h2>
-            <p></p>
+        </ul>
+
+        <ul class="card-list">
+          <li class="card-item">
+            <a class="card-link" href="#">
+              <img
+                class="card-image"
+                src="./images/work/web-laptop.jpg"
+                alt="Ноутбук"
+                width="370"
+              />
+              <h3 class="card-titel">Технокряк</h3>
+              <p class="card-text">Веб-сайт</p>
+            </a>
           </li>
-          <li>
-            <img src="./images/work/book.jpg" alt="Книга" width="370" />
-            <h2></h2>
-            <p></p>
+          <li class="card-item">
+            <a class="card-link" href="#">
+              <img
+                class="card-image"
+                src="./images/work/game.jpg"
+                alt="Гра в баскетбол"
+                width="370"
+              />
+              <h3 class="card-titel">Постер New Orlean vs Golden Star</h3>
+              <p class="card-text">Дизайн</p>
+            </a>
           </li>
-          <li>
-            <img src="./images/work/tag.jpg" alt="Ярлик" width="370" />
-            <h2></h2>
-            <p></p>
+          <li class="card-item">
+            <a class="card-link" href="#">
+              <img
+                class="card-image"
+                src="./images/work/food.jpg"
+                alt="Логотим ресторану"
+                width="370"
+              />
+              <h3 class="card-titel">Ресторан Seafood</h3>
+              <p class="card-text">Додаток</p>
+            </a>
           </li>
-          <li>
-            <img src="./images/work/laptop.jpg" alt="Розробник працює за ноутбуком width="370""
-            width="370">
-            <h2></h2>
-            <p></p>
+          <li class="card-item">
+            <a class="card-link" href="#">
+              <img
+                class="card-image"
+                src="./images/work/headphones.jpg"
+                alt="Навушники"
+                width="370"
+              />
+              <h3 class="card-titel">Проєкт Prime</h3>
+              <p class="card-text">Маркетинг</p>
+            </a>
+          </li>
+          <li class="card-item">
+            <a class="card-link" href="">
+              <img class="card-image" src="./images/work/box.jpg" alt="Коробки" width="370" />
+              <h3 class="card-titel">Проєкт Boxes</h3>
+              <p class="card-text">Додаток</p>
+            </a>
+          </li>
+          <li class="card-item">
+            <a class="card-link" href="#">
+              <img class="card-image" src="./images/work/monitor.jpg" alt="Монітор" width="370" />
+              <h3 class="card-titel">Inspiration has no Borders</h3>
+              <p class="card-text">Веб-сайт</p>
+            </a>
+          </li>
+          <li class="card-item">
+            <a class="card-link" href="#">
+              <img class="card-image" src="./images/work/book.jpg" alt="Книга" width="370" />
+              <h3 class="card-titel">Видання Limited Edition</h3>
+              <p class="card-text">Дизайн</p>
+            </a>
+          </li>
+          <li class="card-item">
+            <a class="card-link" href="#">
+              <img class="card-image" src="./images/work/tag.jpg" alt="Ярлик" width="370" />
+              <h3 class="card-titel">Проєкт LAB</h3>
+              <p class="card-text">Маркетинг</p>
+            </a>
+          </li>
+          <li class="card-item">
+            <a class="card-link" href="#">
+              <img
+                class="card-image"
+                src="./images/work/laptop.jpg"
+                alt="Розробник працює за ноутбуком"
+                width="370"
+              />
+              <h3 class="card-titel">Growing Business</h3>
+              <p class="card-text">Додаток</p>
+            </a>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <address>
-        <ul>
-          <li>
+    <footer class="footer">
+      <a class="logo footer-logo" href="./index.html"><span class="color-logo">Web</span>Studio</a>
+      <address class="address">
+        <ul class="footer-list">
+          <li class="footer-item">
             <a
+              class="footer-llink-map"
               href="https://goo.gl/maps/CtNU3nowhyDTVTYz7"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >м. Київ, пр-т Лесі Українки, 26</a
             >
+              м. Київ, пр-т Лесі Українки, 26
+            </a>
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="footer-item">
+            <a class="footer-llink-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-llink-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
