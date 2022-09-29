@@ -19,6 +19,7 @@ ul {
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   color: var(--primary-text-color);
   background-color: var(--primary-color);
 }
@@ -44,7 +45,6 @@ body {
 }
 .nav-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-titel-color);
@@ -59,7 +59,6 @@ body {
 }
 .contact-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -119,14 +118,12 @@ body {
 }
 .advantage-subtitel {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-titel-color);
 }
 .advantage-text {
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -194,24 +191,33 @@ body {
 }
 .footer-llink-map {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-color);
 }
+.footer-llink-map:hover,
+.footer-llink-map:focus{
+  color: var(--accent-color);
+}
 .footer-llink-mail {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-contact-color);
 }
+.footer-llink-mail:hover,
+.footer-llink-mail:focus{
+  color: var(--accent-color);
+}
 .footer-llink-tel {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-contact-color);
+}
+.footer-llink-tel:hover,
+.footer-llink-tel:focus{
+  color: var(--accent-color);
 }
 
 /* style portfolio */
